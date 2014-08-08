@@ -3,11 +3,29 @@ package org.scarydude.model;
 import java.awt.*;
 
 public class Dragon {
+    private Integer id;
     private String name;
     private Integer size;
     private Integer weight;
     private Color color;
     private Integer numOfHeads;
+
+    public Dragon(Integer id, String name, Integer size, Integer weight, Color color, Integer numOfHeads) {
+        this.id = id;
+        this.name = name;
+        this.size = size;
+        this.weight = weight;
+        this.color = color;
+        this.numOfHeads = numOfHeads;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

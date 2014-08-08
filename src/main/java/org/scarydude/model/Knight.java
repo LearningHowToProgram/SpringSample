@@ -7,6 +7,14 @@ public class Knight {
     private Integer strength;
     private Integer numOfKills;
 
+    public Knight(String name, Integer age, Float swordLength, Integer strength, Integer numOfKills) {
+        this.name = name;
+        this.age = age;
+        this.swordLength = swordLength;
+        this.strength = strength;
+        this.numOfKills = numOfKills;
+    }
+
     public String getName() {
         return name;
     }
